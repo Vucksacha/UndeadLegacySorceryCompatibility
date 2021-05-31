@@ -1,5 +1,5 @@
 # Undead Legacy / Sorcery Compatibility
-Modlet allowing Sorcery compatibility with the Undead Legacy Overhaul Mod
+This is a modlet allowing Sorcery compatibility with the Undead Legacy Overhaul Mod
 
 Installation Instructions:
 	Initial Step: Make sure you have a clean installation of 7 Days to Die. Re-install if necessary.
