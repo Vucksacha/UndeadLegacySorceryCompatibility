@@ -7,7 +7,7 @@ Installation Instructions:
 	Step 1: Download this mod's supported Undead Legacy Mod (currently 2.3.34 stable for A19.4B7)
 		http://ul.subquake.com/download
 		Using any other version may work but is at your own risk
-	Step 2: Download this mod's supported Sorcery Mod ()
+	Step 2: Download this mod's supported Sorcery Mod (currently v0.94)
 		http://download.sorcerymod.com/
 		Using any other version may work but is at your own risk
 	Step 3: Unzip UndeadLegacy-master.zip and copy the entire content of the UndeadLegacy-master folder into your 7DTD game folder
