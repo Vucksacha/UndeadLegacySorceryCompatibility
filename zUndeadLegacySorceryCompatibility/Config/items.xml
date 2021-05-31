@@ -122,10 +122,6 @@
 			<property name="CarryWeight" value="10"/>
 	</append>
 
-	<!--<append xpath="/items/item[@name='ammoSpellTurretFire']">
-			<property name="CarryWeight" value="0.075"/>
-	</append>-->
-
 	<append xpath="/items/item[@name='sorceryFamiliarArcane']">
 			<property name="CarryWeight" value="0.05"/>
 	</append>

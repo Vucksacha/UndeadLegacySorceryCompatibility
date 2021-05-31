@@ -1,3 +1,12 @@
+Version A19.4B7 2021-05-31 16:05:
+- Recipes.xml:
+	- Changed recipe resources for Scroll from Undead Legacy Plank resource to Undead Legacy Stick resource
+- Items.xml:
+	- Reduced Carry Weights for the following items:
+		- Potions
+		- Scrolls
+	- Removed legacy ammoSpellTurretFire
+
 Version A19.4B7 2021-05-30 15:52:
 - Modified windows to fit Undead Legacy UI framework:
 	- Xui.xml: 
