@@ -1,0 +1,5 @@
+<config>
+	<append xpath="/lootcontainers/lootgroup[@name='ulmStarterKit']">
+		<item name="q_sorceryIntro"/>
+	</append>
+</config>

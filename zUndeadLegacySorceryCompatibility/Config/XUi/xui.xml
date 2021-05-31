@@ -1,0 +1,48 @@
+<Config>
+
+<set xpath="//window_group[@name='workstation_conjureFire']">
+    <window name="headerEmpty"/>
+    <window name="windowCraftingForgeFire"/>
+    <window name="windowCraftingFuel"/>
+    <window name="windowCraftingListForge"/>
+    <window name="windowCraftingInfo"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowCraftingOutput"/>
+</set>
+<set xpath="//window_group[@name='workstation_conjureIce']">
+    <window name="headerEmpty"/>
+    <window name="windowCraftingForgeIce"/>
+    <window name="windowCraftingFuel"/>
+    <window name="windowCraftingListForge"/>
+    <window name="windowCraftingInfo"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowCraftingOutput"/>
+</set>
+
+<set xpath="//window_group[@name='workstation_conjureLightning']">
+    <window name="headerEmpty"/>
+    <window name="windowCraftingForgeLightning"/>
+    <window name="windowCraftingFuel"/>
+    <window name="windowCraftingListForge"/>
+    <window name="windowCraftingInfo"/>
+    <window name="windowCraftingQueue"/>
+    <window name="windowCraftingOutput"/>
+</set>
+
+<set xpath="//window_group[@name='workstation_sorceryDesk' or @name='workstation_sorceryAlchemyStation' or @name ='workstation_sorceryArcaneWheel']">
+	<window name="headerEmpty"/>
+    <window name="windowCraftingSorceryCores"/>
+	<window name="windowCraftingInfo"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowCraftingOutput"/>
+</set>		
+
+<set xpath="//window_group[@name='workstation_sorceryEnchantingStation']">
+	<window name="headerEmpty"/>
+    <window name="windowCraftingSorceryHammers"/>
+	<window name="windowCraftingInfo"/>
+	<window name="windowCraftingQueue"/>
+	<window name="windowCraftingOutput"/>
+</set>		
+
+</Config>

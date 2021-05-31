@@ -1,0 +1,144 @@
+<Config>
+<append xpath="/windows">
+
+<window name="windowCraftingForgeFire" depth="1" size="0,0" panel="Left" controller="WorkstationMaterialInputWindow" 
+	materials_accepted="ice" 
+	valid_materials_color="[green]" invalid_materials_color="[red]">
+	<sprite style="ulmCraftingListDefault"/>
+	<texture style="ulmCraftingListForge"/>
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="symbol_anvil"/>
+		<label style="ulmHeader" text_key="fireforge"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+        required_tools="toolFireCore,toolHammerFire" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+    <rect pos="0,-145">
+	    <grid depth="2" pos="54,-34" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationMaterialInputGrid" repeat_content="true">
+		    <ulmStack90 name="0"/>
+	    </grid>
+	    <grid depth="1" pos="54,-34" name="slot_preview" rows="1" cols="2" cell_width="90" cell_height="90" controller="SlotPreview" repeat_content="true">
+		    <rect><sprite name="slot" pos="16,-16" size="60,60" sprite="ui_game_symbol_misc_crafting" color="255,255,255,128"/></rect>
+	    </grid>
+        <sprite depth="1" pos="235,-47" size="32,64" sprite="symbol_smelt_to" color="255,255,255,64"/>
+	    <grid depth="2" pos="266,-35" rows="3" cols="2" cell_width="136" cell_height="30" repeat_content="false">
+		    <forge_material name="fire"	    icon="resourceEssenceFire"/>
+	    </grid>
+    </rect>
+</window>
+
+<window name="windowCraftingForgeIce" depth="1" size="0,0" panel="Left" controller="WorkstationMaterialInputWindow" 
+	materials_accepted="ice" 
+	valid_materials_color="[green]" invalid_materials_color="[red]">
+	<sprite style="ulmCraftingListDefault"/>
+	<texture style="ulmCraftingListForge"/>
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="symbol_anvil"/>
+		<label style="ulmHeader" text_key="iceforge"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+        required_tools="toolIceCore,toolHammerIce" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+    <rect pos="0,-145">
+	    <grid depth="2" pos="54,-34" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationMaterialInputGrid" repeat_content="true">
+		    <ulmStack90 name="0"/>
+	    </grid>
+	    <grid depth="1" pos="54,-34" name="slot_preview" rows="1" cols="2" cell_width="90" cell_height="90" controller="SlotPreview" repeat_content="true">
+		    <rect><sprite name="slot" pos="16,-16" size="60,60" sprite="ui_game_symbol_misc_crafting" color="255,255,255,128"/></rect>
+	    </grid>
+        <sprite depth="1" pos="235,-47" size="32,64" sprite="symbol_smelt_to" color="255,255,255,64"/>
+	    <grid depth="2" pos="266,-35" rows="3" cols="2" cell_width="136" cell_height="30" repeat_content="false">
+		    <forge_material name="ice"	    icon="resourceEssenceIce"/>
+	    </grid>
+    </rect>
+</window>
+
+<window name="windowCraftingForgeLightning" depth="1" size="0,0" panel="Left" controller="WorkstationMaterialInputWindow" 
+	materials_accepted="ice" 
+	valid_materials_color="[green]" invalid_materials_color="[red]">
+	<sprite style="ulmCraftingListDefault"/>
+	<texture style="ulmCraftingListForge"/>
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="symbol_anvil"/>
+		<label style="ulmHeader" text_key="lightningforge"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false"
+        required_tools="toolLightningCore,toolHammerLightning" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+    <rect pos="0,-145">
+	    <grid depth="2" pos="54,-34" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationMaterialInputGrid" repeat_content="true">
+		    <ulmStack90 name="0"/>
+	    </grid>
+	    <grid depth="1" pos="54,-34" name="slot_preview" rows="1" cols="2" cell_width="90" cell_height="90" controller="SlotPreview" repeat_content="true">
+		    <rect><sprite name="slot" pos="16,-16" size="60,60" sprite="ui_game_symbol_misc_crafting" color="255,255,255,128"/></rect>
+	    </grid>
+        <sprite depth="1" pos="235,-47" size="32,64" sprite="symbol_smelt_to" color="255,255,255,64"/>
+	    <grid depth="2" pos="266,-35" rows="3" cols="2" cell_width="136" cell_height="30" repeat_content="false">
+		    <forge_material name="lightning"	    icon="resourceEssenceLightning"/>
+	    </grid>
+    </rect>
+</window>
+
+<window name="windowCraftingSorceryCores" depth="1" size="557,571" panel="Left" cursor_area="true" controller="CraftingListInfo">
+	<sprite style="ulmCraftingListDefault"/>
+	<texture style="ulmCraftingListWorkbench"/>
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="ui_game_symbol_lightbulb"/>
+		<label style="ulmHeader" text_key="xuiBasics"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="3" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" 
+        required_tools="toolFireCore,toolIceCore,toolLightningCore" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+
+	<panel name="content" depth="1" pos="20,-40" size="550,530" on_scroll="true" disableautobackground="true">
+		<rect pos="-62,-62">
+			<ulmCategoryTabLeft id="favorites" pos="0,54" sprite="symbol_star" tooltip="lblFavorites"/>
+			<grid depth="1" name="categories" size="42,42" rows="13" cols="1" cell_width="54" cell_height="54" repeat_content="true" controller="CategoryList">
+				<ulmCategory/>
+			</grid>
+		</rect>
+
+		<ulmSearch pos="338,48"/>
+		<ulmPaging pos="200,-475"/>
+
+		<grid depth="2" name="recipes" pos="4,-105" rows="4" cols="6" size="390,552" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal" >
+			<recipe_entry name="0"/>
+		</grid>
+	</panel>
+</window>
+
+<window name="windowCraftingSorceryHammers" depth="1" size="557,571" panel="Left" cursor_area="true" controller="CraftingListInfo">
+	<sprite style="ulmCraftingListDefault"/>
+	<texture style="ulmCraftingListWorkbench"/>
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="ui_game_symbol_lightbulb"/>
+		<label style="ulmHeader" text_key="xuiBasics"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="3" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" 
+        required_tools="toolHammerFire,toolHammerIce,toolHammerLightning" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+
+	<panel name="content" depth="1" pos="20,-40" size="550,530" on_scroll="true" disableautobackground="true">
+		<rect pos="-62,-62">
+			<ulmCategoryTabLeft id="favorites" pos="0,54" sprite="symbol_star" tooltip="lblFavorites"/>
+			<grid depth="1" name="categories" size="42,42" rows="13" cols="1" cell_width="54" cell_height="54" repeat_content="true" controller="CategoryList">
+				<ulmCategory/>
+			</grid>
+		</rect>
+
+		<ulmSearch pos="338,48"/>
+		<ulmPaging pos="200,-475"/>
+
+		<grid depth="2" name="recipes" pos="4,-105" rows="4" cols="6" size="390,552" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal" >
+			<recipe_entry name="0"/>
+		</grid>
+	</panel>
+</window>
+
+</append>
+</Config>

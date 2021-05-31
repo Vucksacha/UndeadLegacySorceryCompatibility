@@ -1,0 +1,36 @@
+__________________________________________________________________________________
+TERMS OF USE: YOU AGREE TO THESE TERMS BY USING THE UNDEAD LEGACY/SORCERY MOD.
+__________________________________________________________________________________
+CREDITS:
+
+UNDEAD LEGACY:
+HOME: http://ul.subquake.com/
+AUTHOR: Subquake
+FORUM: https://community.7daystodie.com/topic/4085-subquakes-undead-legacy/
+DISCORD: https://discord.gg/CZY8W2t
+YOUTUBE: https://www.youtube.com/channel/UC8a1wORfi2USR4tFqcRZxrw
+DOWNLOAD: http://ul.subquake.com/download
+
+SORCERY:
+HOME: http://sorcerymod.com
+AUTHOR: Devrix
+FORUM: http://forum.sorcerymod.com
+DISCORD: http://discord.sorcerymod.com
+YOUTUBE: http://youtube.sorcerymod.com
+DOWNLOAD: http://download.sorcerymod.com
+
+TFP POLICY: http://tfpmodforumpolicy.sorcerymod.com
+__________________________________________________________________________________
+USAGE: The Undead Legacy/Sorcery Compatibility Mod may be downloaded and used by players of the 7 Days to Die community, 
+with no required royalties. By downloading and using this Mod, users of the 
+mod understand and accept full and sole responsibility and liability of using the mod. Author, nor The 
+Fun Pimps, shall be held responsible or liable for any possible conflict(s) as a direct or indirect result 
+of using this mod.
+
+REDISTRIBUTION: The XML code of this Mod may solely be redistributed within the 7 Days 
+to Die community. Conditions of redistribution require a direct link, with credit stated, to the original Mod
+and Undead Legacy, Sorcery Mod Authors as per credits above. The Mod itself should not be redistributed outside of its original 
+distribution channels.
+
+MODIFICATION: The Terms of Use and Disclaimer herein are subject to changes and modifications.
+__________________________________________________________________________________

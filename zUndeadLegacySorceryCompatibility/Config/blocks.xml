@@ -1,0 +1,30 @@
+<Config>
+
+	<append xpath="/blocks/block[@name='sorceryTrap_Ice' or @name='sorceryTrap_Fire']">
+			<property name="CarryWeight" value="0.5"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='sorceryArcaneWheel']">
+			<property name="CarryWeight" value="4"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='sorceryAlchemyStation']">
+			<property name="CarryWeight" value="18"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='sorceryDesk']">
+			<property name="CarryWeight" value="12"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='sorceryEnchantingStation']">
+			<property name="CarryWeight" value="15"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='conjureFire' or @name='conjureIce' or @name='conjureLightning']">
+			<property name="CarryWeight" value="15"/>
+	</append>
+
+	<append xpath="/blocks/block[@name='cnt_SorceryCrateIntro' or @name='cntLoot_SorceryCrateIntro']">
+			<property name="CarryWeight" value="5"/>
+	</append>
+</Config>

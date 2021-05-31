@@ -1,0 +1,41 @@
+<Config>
+
+	<!--<append xpath="/item_modifiers/item_modifier[@name='runeMaster' or 
+													@name='rune_LockShatter' or 
+													@name='rune_DoorShatter' or 
+													@name='rune_SpellLight' or 
+													@name='rune_LuckyDukes' or 
+													@name='rune_LuckyAmmo' or 
+													@name='rune_LuckySpells' or 
+													@name='rune_LuckyPotions' or 
+													@name='rune_LuckyScrolls' or 
+													@name='rune_AugmentXP' or 
+													@name='rune_AugmentHunger' or 
+													@name='rune_AugmentMining' or 
+													@name='rune_AugmentDigging' or 
+													@name='rune_AugmentLogging' or 
+													@name='runeFire_LuckyEssence' or 
+													@name='runeFire_TurretMeteor' or 
+													@name='runeFire_TurretAuraBurn' or 
+													@name='runeIce_LuckyEssence' or
+													@name='rune_SupporterAstryael' or 
+													@name='rune_SupporterDragoness' or 
+													@name='rune_AspectOfFire' or 
+													@name='rune_ClassSpellcaster1' or 
+													@name='rune_ClassSpellcaster2' or 
+													@name='rune_ClassSpellcaster3' or 
+													@name='rune_ClassSpellcaster' or 
+													@name='rune_ClassAlchemist1' or 
+													@name='rune_ClassAlchemist2' or 
+													@name='rune_ClassAlchemist3' or 
+													@name='rune_ClassAlchemist' or 
+													@name='rune_AspectOfFire' or 
+													@name='rune_AspectOfIce']">
+		<property value="0.2" name="CarryWeight"/>
+	</append>-->
+
+	<append xpath="/item_modifiers/item_modifier[@name='runeMaster']">
+		<property value="0.2" name="CarryWeight"/>
+	</append>
+
+</Config>

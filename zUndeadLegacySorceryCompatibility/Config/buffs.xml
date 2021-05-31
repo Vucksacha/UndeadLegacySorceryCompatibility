@@ -1,0 +1,18 @@
+<Config>
+	<remove xpath="/buffs/buff[@name='buffSorceryUI']"/>
+	<!--<remove xpath="/buffs/buff[@name='buffSorceryManage']/effect_group[@name='MANAGE: UI STAT BUFFS']"/>-->
+	<setattribute xpath="/buffs/buff[@name='buffEntity_SorceryManage']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryMark']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryMarked']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffEntity_EssenceTouched']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffFamiliarSummoned']" name="hidden">true</setattribute>-->
+
+	<append xpath="/buffs/buff[@name='buffCrafting_MortarPestle']">
+	
+		<effect_group name="FuriousRamsayULCompatibility">
+				<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" tags="resourcePotassiumNitratePowder"/>
+		</effect_group>					
+
+	</append>
+
+</Config>

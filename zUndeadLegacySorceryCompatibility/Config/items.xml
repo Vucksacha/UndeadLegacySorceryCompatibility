@@ -1,0 +1,132 @@
+<Config>
+	<append xpath="/items/item[@name='spellcastFire' or @name='spellcastIce']">
+			<property name="CarryWeight" value="0.5"/>
+	</append>
+
+	<append xpath="/items/item[@name='spellFire' or @name='spellFire2' or @name='spellFire3' or @name='spellIce' or @name='spellIce2' or @name='spellIce3']">
+			<property name="CarryWeight" value="0.001"/>
+	</append>
+
+	<append xpath="/items/item[@name='spellArrowFire' or @name='spellBoltFire' or @name='spellArrowIce' or @name='spellBoltIce']">
+			<property name="CarryWeight" value="0.03"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmorMaster' or @name='sorceryArmorFireMaster' or @name='sorceryArmorIceMaster' or @name='sorceryArmorLightningMaster']">
+			<property name="CarryWeight" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Hood' or @name='sorceryArmorFire_Hood' or @name='sorceryArmorIce_Hood' or @name='sorceryArmorLightning_Hood']">
+			<property name="CarryWeight" value="0.15"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Bandana' or @name='sorceryArmorFire_Bandana' or @name='sorceryArmorIce_Bandana' or @name='sorceryArmorLightning_Bandana']">
+			<property name="CarryWeight" value="0.1"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Robe' or @name='sorceryArmorFire_Robe' or @name='sorceryArmorIce_Robe' or @name='sorceryArmorLightning_Robe']">
+			<property name="CarryWeight" value="1.5"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Chest' or @name='sorceryArmorFire_Chest' or @name='sorceryArmorIce_Chest' or @name='sorceryArmorLightning_Chest']">
+			<property name="CarryWeight" value="0.75"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Shirt' or @name='sorceryArmorFire_Shirt' or @name='sorceryArmorIce_Shirt' or @name='sorceryArmorLightning_Shirt']">
+			<property name="CarryWeight" value="0.4"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Gloves' or @name='sorceryArmorFire_Gloves' or @name='sorceryArmorIce_Gloves' or @name='sorceryArmorLightning_Gloves']">
+			<property name="CarryWeight" value="0.3"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Leg' or @name='sorceryArmorFire_Leg' or @name='sorceryArmorIce_Leg' or @name='sorceryArmorLightning_Leg']">
+			<property name="CarryWeight" value="0.75"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Pants' or @name='sorceryArmorFire_Pants' or @name='sorceryArmorIce_Pants' or @name='sorceryArmorLightning_Pants']">
+			<property name="CarryWeight" value="0.75"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryArmor_Boots' or @name='sorceryArmorFire_Boots' or @name='sorceryArmorIce_Boots' or @name='sorceryArmorLightning_Boots']">
+			<property name="CarryWeight" value="0.35"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryAccessory_Shades' or @name='sorceryAccessoryFire_Shades' or @name='sorceryAccessoryIce_Shades' or @name='sorceryAccessoryLightning_Shades']">
+			<property name="CarryWeight" value="0.1"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryAlchemyMortar']">
+			<property name="CarryWeight" value="0.5"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryPotionMaster' or @name='potionBottle' or @name='potion_Health' or @name='potion_Stamina' or @name='potion_Spirit' or @name='potion_Remedy' or 
+								@name='potion_Travel' or @name='potion_Haste' or @name='potion_Devour' or @name='potion_SlowFall' or @name='potionFire_Essence' or @name='potionFire_Sorcery' or 
+								@name='potionIce_Essence' or @name='potionIce_Sorcery' or @name='sorceryElixirMaster' or @name='sorceryElixir_attFire' or @name='sorceryElixir_attIce' or @name='sorceryElixir_attLightning']">
+			<property name="CarryWeight" value="0.1"/>
+	</append>
+
+	<append xpath="/items/item[@name='sorceryScrollMaster' or @name='scrollFire_Weapon' or @name='scrollFire_Ammo' or @name='scrollIce_Weapon' or @name='scrollIce_Ammo' or @name='scroll_ArcaneVision' or 
+								@name='scroll_Recall' or @name='scroll_AugmentXP' or @name='scroll_AugmentHunger' or @name='scroll_AugmentMining' or @name='scroll_AugmentDigging' or @name='scroll_AugmentLogging' or 
+								@name='scroll_EssenceHarvest' or @name='scrollQuest_ConjureFireItems' or @name='scrollQuest_ConjureIceItems' or @name='scrollQuest_ConjureLightningItems']">
+			<property name="CarryWeight" value="0.025"/>
+	</append>
+
+	<append xpath="/items/item[@name='toolFireCore' or @name='toolIceCore' or @name='toolLightningCore']">
+			<property name="CarryWeight" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='toolHammerFire' or @name='toolHammerIce' or @name='toolHammerLightning']">
+			<property name="CarryWeight" value="2"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceEssenceFire' or @name='resourceEssenceIce' or @name='resourceEssenceLightning' or @name='resourceEssenceUnholy' or @name='resourceEssenceHoly']">
+			<property name="CarryWeight" value="0.001"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceExtractOmni' or @name='resourceExtractFire' or @name='resourceExtractIce' or @name='resourceExtractLightning' or @name='resourceExtractUnholy' or @name='resourceExtractHoly']">
+			<property name="CarryWeight" value="0.001"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourcePowderArcane' or @name='resourcePowderFire' or @name='resourcePowderIce' or @name='resourcePowderLightning' or @name='resourcePowderUnholy' or @name='resourcePowderHoly']">
+			<property name="CarryWeight" value="0.001"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceThreadArcane' or @name='resourceThreadFire' or @name='resourceThreadIce' or @name='resourceThreadLightning' or @name='resourceThreadUnholy' or @name='resourceThreadHoly']">
+			<property name="CarryWeight" value="0.01"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceRitualStoneFire' or @name='resourceRitualStoneIce' or @name='resourceRitualStoneLightning' or @name='resourceRitualStoneUnholy' or @name='resourceRitualStoneHoly']">
+			<property name="CarryWeight" value="3"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceRitualShardFire' or @name='resourceRitualShardIce' or @name='resourceRitualShardLightning' or @name='resourceRitualShardUnholy' or @name='resourceRitualShardHoly']">
+			<property name="CarryWeight" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='resourceRitualBloodFallenLightning' or @name='resourceRitualBloodAwakenedLightning' or @name='resourceRitualBloodFallenFire' or @name='resourceRitualBloodAwakenedFire' or 
+								@name='resourceRitualBloodFallenIce' or @name='resourceRitualBloodAwakenedIce' or @name='resourceRitualBloodFallenUnholy' or @name='resourceRitualBloodAwakenedUnholy' or 
+								@name='resourceRitualBloodFallenHoly' or @name='resourceRitualBloodAwakenedHoly']">
+			<property name="CarryWeight" value="1"/>
+	</append>
+
+	<append xpath="/items/item[@name='unit_fire' or @name='unit_ice' or @name='unit_lightning' or @name='unit_unholy' or @name='unit_holy']">
+			<property name="CarryWeight" value="0.001"/>
+	</append>
+
+	<append xpath="/items/item[@name='questMasterSorcery' or @name='q_sorceryIntro' or @name='q_sorceryIntroGuide' or @name='q_sorceryIntroGuide_Fire' or @name='q_sorceryIntroGuide_Ice' or @name='q_sorceryIntroGuide_Lightning' or 
+								@name='q_sorceryFallen_Fire' or @name='q_sorceryFallen_Ice' or @name='q_sorceryFallen_Lightning' or @name='q_sorceryFallen_Trio' or @name='q_sorcerySkillGrimoire']">
+			<property name="CarryWeight" value="0.1"/>
+	</append>
+
+	<append xpath="/items/item[@name='spellTurretFire' or @name='spellTurretIce']">
+			<property name="CarryWeight" value="10"/>
+	</append>
+
+	<!--<append xpath="/items/item[@name='ammoSpellTurretFire']">
+			<property name="CarryWeight" value="0.075"/>
+	</append>-->
+
+	<append xpath="/items/item[@name='sorceryFamiliarArcane']">
+			<property name="CarryWeight" value="0.05"/>
+	</append>
+</Config>

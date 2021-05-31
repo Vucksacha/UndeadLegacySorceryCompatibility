@@ -1,0 +1,5 @@
+<Config>
+	<set xpath="//entity_class[@name='playerMale']//property[@name='ItemsOnEnterGame.GameModeSurvival']/@value">ulmContainerBagStarter</set>
+	<set xpath="//entity_class[@name='playerMale']//property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value">ulmContainerBagStarter</set>
+	<set xpath="//entity_class[@name='playerMale']//property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value">ulmContainerBagStarter</set>
+</Config>
