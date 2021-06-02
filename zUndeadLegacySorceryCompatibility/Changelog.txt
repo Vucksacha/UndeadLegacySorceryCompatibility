@@ -3,7 +3,7 @@ Made a number of modifications to convert the various Elemental Forges from the 
 standard crafting mechanic for all UL forges (craft with ingredients in your inventory):
 	- windows.xml:
 		- added windows for Fire, Ice and Lightning Forges
-	- xui.xm:
+	- xui.xml:
 		- added window groups for Fire, Ice and Lightning Forge windows
 	- blocks.xml:
 		- added blocks for Fire, Ice and Lightning Forges
