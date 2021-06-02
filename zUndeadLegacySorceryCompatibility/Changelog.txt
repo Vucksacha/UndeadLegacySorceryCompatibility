@@ -1,3 +1,37 @@
+Version A19.4B7 2021-06-01 20:45
+Made a number of modifications to convert the various Elemental Forges from the smelting mechanic to the
+standard crafting mechanic for all UL forges (craft with ingredients in your inventory):
+	- windows.xml:
+		- added windows for Fire, Ice and Lightning Forges
+	- xui.xm:
+		- added window groups for Fire, Ice and Lightning Forge windows
+	- blocks.xml:
+		- added blocks for Fire, Ice and Lightning Forges
+		- hid legacy forges from the creative menu
+	- localization.txt:
+		- added localization for new Fire, Ice and Lightning Forge blocks
+	- progression.xml:
+		- associated recipe unlocks with new Fire, Ice and Lightning Forges
+	- quests.xml:
+		- associated the new Fire, Ice and Lightning blocks with the intro guide for each element
+	- recipes.xml:
+		- changed the recipes for the following items to use essences from your inventory rather
+		  than smelted resources from the legacy forges:
+			- Fire, Ice and Lightning extracts, cores, hammers and spellcasts
+			- All 3 Fire Spells
+			- All 3 Ice Spells
+			- Omni (3 recipes, one per element)
+		- added a recipe for the new Fire, Ice and Lightning Forges
+
+Version A19.4B7 2021-05-31 16:05
+- Recipes.xml:
+    - Changed recipe resources for Scroll from Undead Legacy Plank resource to Undead Legacy Stick resource
+- Items.xml:
+    - Reduced Carry Weights for the following items:
+        - Potions
+        - Scrolls
+    - Removed legacy ammoSpellTurretFire
+
 Version A19.4B7 2021-05-31 16:05:
 - Recipes.xml:
 	- Changed recipe resources for Scroll from Undead Legacy Plank resource to Undead Legacy Stick resource

@@ -1,6 +1,40 @@
 <Config>
 <append xpath="/windows">
 
+<window name="windowCraftingFurnaceFire" depth="2" size="0,0" panel="Left">
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="ui_symbol_fire"/>
+		<label style="ulmHeader" text_key="FuriousRamsayStationFurnace_Fire"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" 
+        required_tools="toolFireCore,toolHammerFire" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+</window>
+	
+<window name="windowCraftingFurnaceIce" depth="2" size="0,0" panel="Left">
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="ui_game_symbol_cold"/>
+		<label style="ulmHeader" text_key="FuriousRamsayStationFurnace_Ice"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" 
+        required_tools="toolIceCore,toolHammerIce" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+</window>
+
+<window name="windowCraftingFurnaceLightning" depth="2" size="0,0" panel="Left">
+	<panel style="ulmHeader">
+		<sprite style="ulmHeader" sprite="ui_game_symbol_electric_power"/>
+		<label style="ulmHeader" text_key="FuriousRamsayStationFurnace_Lightning"/>
+	</panel>
+	<grid depth="1" name="inventory" pos="264,-51" rows="1" cols="2" cell_width="90" cell_height="90" controller="WorkstationToolGrid" repeat_content="true" allow_sort_order="false" 
+        required_tools="toolLightningCore,toolHammerLightning" required_tools_only="true">
+		<required_item_stack name="0"/>
+	</grid>
+</window>
+
+<!-- old style smeling forge -->
 <window name="windowCraftingForgeFire" depth="1" size="0,0" panel="Left" controller="WorkstationMaterialInputWindow" 
 	materials_accepted="ice" 
 	valid_materials_color="[green]" invalid_materials_color="[red]">

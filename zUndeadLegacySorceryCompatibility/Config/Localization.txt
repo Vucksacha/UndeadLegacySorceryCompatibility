@@ -4,6 +4,14 @@ fireforge,"Fire Forge"
 iceforge,"Ice Forge"
 lightningforge,"Lightning Forge"
 
+conjureFire,"[970000]Fire[-] Spellforge (Legacy- Smelting)"
+conjureIce,"[02599c]Ice[-] Spellforge (Legacy- Smelting)"
+ConjureLightning,"[5c009d]Lightning[-] Spellforge (Legacy- Smelting)"
+
+FuriousRamsayStationFurnace_Fire,"[970000]Fire[-] Spellforge"
+FuriousRamsayStationFurnace_Ice,"[02599c]Ice[-] Spellforge"
+FuriousRamsayStationFurnace_Lightning,"[5c009d]Lightning[-] Spellforge"
+
 attSorceryName,"Arcane Sorcery"
 attSorceryFireName,"Fire Sorcery"
 attSorceryIceName,"Ice Sorcery"

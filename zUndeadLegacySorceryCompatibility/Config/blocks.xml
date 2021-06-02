@@ -22,9 +22,78 @@
 
 	<append xpath="/blocks/block[@name='conjureFire' or @name='conjureIce' or @name='conjureLightning']">
 			<property name="CarryWeight" value="15"/>
+			<property name="CreativeMode" value="None"/>
 	</append>
 
 	<append xpath="/blocks/block[@name='cnt_SorceryCrateIntro' or @name='cntLoot_SorceryCrateIntro']">
 			<property name="CarryWeight" value="5"/>
 	</append>
+	
+	<append xpath="/blocks">
+	
+		<block name="FuriousRamsayStationFurnace_Fire">
+			<property name="Extends" value="conjureFire"/>
+			<property name="Class" value="Workstation"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="CustomIcon" value="conjureFire"/>
+			<property name="CarryWeight" value="75"/>
+
+			<property class="Workstation">
+				<property name="Window" value="FuriousRamsayConjureFire"/>
+				<property name="CraftingAreaRecipes" value="conjureFire"/>
+				<property name="Modules" value="fuel,tools,output"/>
+				<property name="SoundOpen" value="sorceryFireball_draw"/>
+				<property name="SoundClose" value="sorceryFireball_impact"/>
+				<property name="SoundCraft" value="sorceryChant"/>
+				<property name="SoundCraftComplete" value="sorceryArcaneWheel_craftdone"/>
+				<property name="Icon" value="ui_symbol_fire"/> 
+				<property name="CraftIcon" value="ui_symbol_fire"/>
+			</property>
+		</block>
+
+		<block name="FuriousRamsayStationFurnace_Ice">
+			<property name="Extends" value="conjureIce"/>
+			<property name="Class" value="Workstation"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="CustomIcon" value="conjureIce"/>
+			<property name="CarryWeight" value="75"/>
+
+			<property class="Workstation">
+				<property name="Window" value="FuriousRamsayConjureIce"/>
+				<property name="CraftingAreaRecipes" value="conjureIce"/>
+				<property name="Modules" value="fuel,tools,output"/>
+				<property name="SoundOpen" value="sorceryIce_draw"/>
+				<property name="SoundClose" value="sorceryIce_impact"/>
+				<property name="SoundCraft" value="sorceryChant"/>
+				<property name="SoundCraftComplete" value="sorceryArcaneWheel_craftdone"/>
+				<property name="Icon" value="ui_game_symbol_cold"/>
+				<property name="CraftIcon" value="ui_game_symbol_cold"/>
+			</property>
+		</block>
+
+		<block name="FuriousRamsayStationFurnace_Lightning">
+			<property name="Extends" value="conjureLightning"/>
+			<property name="Class" value="Workstation"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="CustomIcon" value="conjureLightning"/>
+			<property name="CarryWeight" value="75"/>
+
+			<property class="Workstation">
+				<property name="Window" value="FuriousRamsayConjureLightning"/>
+				<property name="CraftingAreaRecipes" value="conjureLightning"/>
+				<property name="Modules" value="fuel,tools,output"/>
+				<property name="SoundOpen" value="sorceryLightning_implodelow"/>
+				<property name="SoundClose" value="sorceryLightning_impact"/>
+				<property name="SoundCraft" value="sorceryChant"/>
+				<property name="SoundCraftComplete" value="sorceryArcaneWheel_craftdone"/>
+				<property name="Icon" value="ui_game_symbol_electric_power"/>
+				<property name="CraftIcon" value="ui_game_symbol_electric_power"/>
+			</property>
+		</block>
+
+	</append>
+	
 </Config>
