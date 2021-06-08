@@ -5,7 +5,63 @@
 	<setattribute xpath="/buffs/buff[@name='buffSorceryMark']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffSorceryMarked']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffEntity_EssenceTouched']" name="hidden">true</setattribute>
-	<setattribute xpath="/buffs/buff[@name='buffFamiliarSummoned']" name="hidden">true</setattribute>-->
+	<!--<setattribute xpath="/buffs/buff[@name='buffFamiliarSummoned']" name="hidden">true</setattribute>-->
+	<setattribute xpath="/buffs/buff[@name='buffRune_AugmentHunger']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_SupporterDragoness']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_SupporterAstyael']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryUI_SpellSpeed']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryUI_SpellCharge']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryUI_FirePower']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryUI_IcePower']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryUI_LightningPower']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetArcane']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetFire']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetIce']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetLightning']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='debuffScroll_RecallAOE']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_AspectOfFire']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_AspectOfIce']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_SpellLight']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassSpellcaster1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassSpellcaster2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassSpellcaster3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassSpellcaster']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassAlchemist1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassAlchemist2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassAlchemist3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='buffRune_ClassAlchemist']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassEnchanter1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassEnchanter2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassEnchanter3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassEnchanter']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassScholar1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassScholar2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassScholar3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassScholar']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassTailor1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassTailor2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassTailor3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassTailor']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassRitualist1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassRitualist2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassRitualist3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassRitualist']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellGunner1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellGunner2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellGunner3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellGunner']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellArcher1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellArcher2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellArcher3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellArcher']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellKnight1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellKnight2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellKnight3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellKnight']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellTrapper1']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellTrapper2']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellTrapper3']" name="hidden">true</setattribute>
+	<setattribute xpath="/buffs/buff[@name='rune_ClassSpellTrapper']" name="hidden">true</setattribute>
 
 	<append xpath="/buffs/buff[@name='buffCrafting_MortarPestle']">
 	
