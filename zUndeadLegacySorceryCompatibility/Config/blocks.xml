@@ -41,7 +41,7 @@
 
 			<property class="Workstation">
 				<property name="Window" value="FuriousRamsayConjureFire"/>
-				<property name="CraftingAreaRecipes" value="conjureFire"/>
+				<property name="CraftingAreaRecipes" value="FuriousRamsayStationFurnace_Fire"/>
 				<property name="Modules" value="fuel,tools,output"/>
 				<property name="SoundOpen" value="sorceryFireball_draw"/>
 				<property name="SoundClose" value="sorceryFireball_impact"/>
@@ -62,7 +62,7 @@
 
 			<property class="Workstation">
 				<property name="Window" value="FuriousRamsayConjureIce"/>
-				<property name="CraftingAreaRecipes" value="conjureIce"/>
+				<property name="CraftingAreaRecipes" value="FuriousRamsayStationFurnace_Ice"/>
 				<property name="Modules" value="fuel,tools,output"/>
 				<property name="SoundOpen" value="sorceryIce_draw"/>
 				<property name="SoundClose" value="sorceryIce_impact"/>

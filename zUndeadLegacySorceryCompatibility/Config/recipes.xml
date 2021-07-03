@@ -1,4 +1,23 @@
 <Config>
+
+	<setattribute xpath="/recipes/recipe[@name='spellFire']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='spellFire2']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='spellFire3']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='spellcastFire']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceExtractFire']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureFire']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='toolFireCore']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='toolHammerFire']" name="craft_area">FuriousRamsayStationFurnace_Fire</setattribute>
+
+	<setattribute xpath="/recipes/recipe[@name='spellIce']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='spellIce2']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='spellIce3']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='spellcastIce']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceExtractIce']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureIce']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='toolIceCore']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/recipes/recipe[@name='toolHammerIce']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
+
 	<!-- Replace Vanilla resourceWood with UL ulmResourcePlank -->
 	<remove xpath="/recipes/recipe[@name='sorceryArcaneWheel']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='sorceryArcaneWheel']"><ingredient name="ulmResourcePlank" count="25"/></append>
@@ -82,12 +101,12 @@
 	<append xpath="/recipes/recipe[@name='spellLightning2']"><ingredient name="resourceEssenceLightning" count="60"/></append>
 	<remove xpath="/recipes/recipe[@name='spellLightning3']/ingredient[@name='unit_lightning']" />
 	<append xpath="/recipes/recipe[@name='spellLightning3']"><ingredient name="resourceEssenceLightning" count="100"/></append>-->
-	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureFire']/ingredient[@name='unit_fire']" />
-	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureFire']"><ingredient name="resourceEssenceFire" count="100"/></append>
-	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureIce']/ingredient[@name='unit_ice']" />
-	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureIce']"><ingredient name="resourceEssenceIce" count="100"/></append>
-	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureLightning']/ingredient[@name='unit_Lightning']" />
-	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='conjureLightning']"><ingredient name="resourceEssenceLightning" count="100"/></append>
+	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Fire']/ingredient[@name='unit_fire']" />
+	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Fire']"><ingredient name="resourceEssenceFire" count="100"/></append>
+	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Ice']/ingredient[@name='unit_ice']" />
+	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Ice']"><ingredient name="resourceEssenceIce" count="100"/></append>
+	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Lightning']/ingredient[@name='unit_Lightning']" />
+	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Lightning']"><ingredient name="resourceEssenceLightning" count="100"/></append>
 
 	<remove xpath="/recipes/recipe[@name='conjureFire']" />
 	<remove xpath="/recipes/recipe[@name='conjureIce']" />
