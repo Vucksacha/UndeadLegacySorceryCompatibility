@@ -108,9 +108,9 @@
 	<remove xpath="/recipes/recipe[@name='spellLightning3']/ingredient[@name='unit_lightning']" />
 	<append xpath="/recipes/recipe[@name='spellLightning3']"><ingredient name="resourceEssenceLightning" count="100"/></append>-->
 	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Fire']/ingredient[@name='unit_fire']" />
-	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Fire']"><ingredient name="resourceEssenceFire" count="100"/></append>
+	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Fire']"><ingredient name="resourceEssenceFire" count="10"/></append>
 	<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Ice']/ingredient[@name='unit_ice']" />
-	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Ice']"><ingredient name="resourceEssenceIce" count="100"/></append>
+	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Ice']"><ingredient name="resourceEssenceIce" count="10"/></append>
 	<!--<remove xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Lightning']/ingredient[@name='unit_Lightning']" />
 	<append xpath="/recipes/recipe[@name='resourceExtractOmni' and @craft_area='FuriousRamsayStationFurnace_Lightning']"><ingredient name="resourceEssenceLightning" count="100"/></append>-->
 
