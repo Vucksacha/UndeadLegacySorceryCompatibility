@@ -19,6 +19,12 @@
 	<setattribute xpath="/recipes/recipe[@name='toolHammerIce']" name="craft_area">FuriousRamsayStationFurnace_Ice</setattribute>
 
 	<!-- Replace Vanilla resourceWood with UL ulmResourcePlank -->
+	<remove xpath="/recipes/recipe[@name='staffFire']/ingredient[@name='resourceWood']" />
+	<append xpath="/recipes/recipe[@name='staffFire']"><ingredient name="ulmResourcePlank" count="5"/></append>
+	<remove xpath="/recipes/recipe[@name='staffIce']/ingredient[@name='resourceWood']" />
+	<append xpath="/recipes/recipe[@name='staffIce']"><ingredient name="ulmResourcePlank" count="5"/></append>
+	<remove xpath="/recipes/recipe[@name='sorceryCnt_ArcaneChest']/ingredient[@name='resourceWood']" />
+	<append xpath="/recipes/recipe[@name='sorceryCnt_ArcaneChest']"><ingredient name="ulmResourcePlank" count="15"/></append>
 	<remove xpath="/recipes/recipe[@name='sorceryArcaneWheel']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='sorceryArcaneWheel']"><ingredient name="ulmResourcePlank" count="25"/></append>
 	<remove xpath="/recipes/recipe[@name='scroll_Recall']/ingredient[@name='resourceWood']" />

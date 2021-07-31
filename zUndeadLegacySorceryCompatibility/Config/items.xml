@@ -140,7 +140,11 @@
 	<setattribute xpath="/items/item[@name='spellTurretIce']/effect_group[@name='spellTurretIce']/passive_effect[@name='ModSlots']" name="tier">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/items/item[@name='spellTurretIce']/effect_group[@name='spellTurretIce']/passive_effect[@name='DegradationMax']" name="tier">0,50</setattribute>
 
-	<append xpath="/items/item[@name='spellcastFire' or @name='spellcastIce']">
+	<append xpath="/items/item[@name='staffFire' or @name='staffIce']">	
+			<property name="CarryWeight" value="1.5"/>
+	</append>
+
+	<append xpath="/items/item[@name='spellcastFire' or @name='spellcastIce']">	
 			<property name="CarryWeight" value="0.5"/>
 	</append>
 
