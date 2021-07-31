@@ -1,5 +1,21 @@
 <Config>
 
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffFire']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">50</setattribute>
+
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">50</setattribute>
+
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastFire']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastFire']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastFire']/effect_group[@name='FIRE SPELLCAST: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">10</setattribute>
@@ -78,7 +94,7 @@
 	</append>
 	<append xpath="/progression/perks">
 		<perk name="FireSorceryFiller1" parent="skillFireSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-		<perk name="FireSorceryFiller2" parent="skillFireSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
+		<!--<perk name="FireSorceryFiller2" parent="skillFireSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>-->
 	</append>
 
 	<append xpath="/progression/skills">
@@ -86,7 +102,7 @@
 	</append>
 	<append xpath="/progression/perks">
 		<perk name="IceSorceryFiller1" parent="skillIceSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-		<perk name="IceSorceryFiller2" parent="skillIceSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
+		<!--<perk name="IceSorceryFiller2" parent="skillIceSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>-->
 	</append>
 
 	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryFire']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Fire,toolFireCore</setattribute>
