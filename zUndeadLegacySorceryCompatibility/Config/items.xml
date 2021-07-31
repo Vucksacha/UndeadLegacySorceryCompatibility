@@ -1,5 +1,13 @@
 <Config>
 
+	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="value">1,1,2,3,4,5</setattribute>
+	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="tier">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='DegradationMax']" name="tier">0,10,20,30,40,50</setattribute>
+
+	<setattribute xpath="/items/item[@name='staffIce']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="value">1,1,2,3,4,5</setattribute>
+	<setattribute xpath="/items/item[@name='staffIce']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="tier">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/items/item[@name='staffIce']/effect_group[@name='PRIMARY']/passive_effect[@name='DegradationMax']" name="tier">0,10,20,30,40,50</setattribute>
+
 	<setattribute xpath="/items/item[@name='spellcastFire']/effect_group[@name='SPELLCAST: TIERED']/passive_effect[@name='ModSlots']" name="value">1,1,2,3,4,5</setattribute>
 	<setattribute xpath="/items/item[@name='spellcastFire']/effect_group[@name='SPELLCAST: TIERED']/passive_effect[@name='ModSlots']" name="tier">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/items/item[@name='spellcastFire']/effect_group[@name='SPELLCAST: TIERED']/passive_effect[@name='DegradationMax']" name="tier">0,10,20,30,40,50</setattribute>
