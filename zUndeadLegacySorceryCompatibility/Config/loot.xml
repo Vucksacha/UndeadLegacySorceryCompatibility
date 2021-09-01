@@ -2,4 +2,7 @@
 	<append xpath="/lootcontainers/lootgroup[@name='ulmStarterKit']">
 		<item name="q_sorceryIntro"/>
 	</append>
+
+	<set xpath="/lootcontainers/lootcontainer[@id='683']/@size">8,13</set>
+
 </config>
