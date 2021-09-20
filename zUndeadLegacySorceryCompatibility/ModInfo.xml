@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="Undead Legacy / Sorcery Compatibility" />
+		<Name value="zUndeadLegacySorceryCompatibility" />
 		<Description value="Undead Legacy / Sorcery Compatibility" />
 		<Author value="FuriousRamsay" />
-		<Version value="A19.6 2021-09-01 14:20" />
+		<Version value="A19.6 2021-09-19 20:00" />
 	</ModInfo>
 </xml>
