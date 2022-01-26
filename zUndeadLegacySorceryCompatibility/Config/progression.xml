@@ -85,7 +85,6 @@
 	</append>
 	<append xpath="/progression/perks">
 		<perk name="ArcaneSorceryFiller1" parent="skillArcaneSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-		<perk name="ArcaneSorceryFiller2" parent="skillArcaneSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
 	</append>
 
 	<append xpath="/progression/skills">
