@@ -1,0 +1,34 @@
+<Config>
+	
+	<set xpath="/gameevents/action_sequence[@name='game_first_spawn']">
+		<property name="allow_user_trigger" value="false"/>
+		<property name="action_type" value="Game"/>
+		
+		<action class="Delay">
+			<property name="time" value="4.5"/>
+		</action>
+
+		<action class="AddJournalTip">
+			<property name="tip_name" value="quest_sorceryIntro1" />
+			<property name="show_window" value="false" />
+			<property name="phase" value="1" />
+		</action>
+
+		<action class="Delay">
+			<property name="time" value="2" />
+			<property name="phase" value="2" />
+		</action>
+
+		<action class="AddBuff">
+			<property name="phase" value="3"/>
+			<property name="buff_name" value="ulmBuffOnFirstSpawn"/>
+		</action>
+
+		<action class="AddQuest">
+			<property name="quest" value="quest_sorceryIntro" />
+			<property name="phase" value="3" />
+		</action>
+
+	</set>
+	
+</Config>
