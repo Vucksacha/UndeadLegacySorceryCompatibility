@@ -86,7 +86,6 @@
 	<append xpath="/progression/perks">
 		<perk name="ArcaneSorceryFiller1" parent="skillArcaneSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
 		<perk name="ArcaneSorceryFiller2" parent="skillArcaneSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-		<!--<perk name="ArcaneSorceryFiller3" parent="skillArcaneSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>-->
 	</append>
 
 	<append xpath="/progression/skills">
@@ -94,7 +93,6 @@
 	</append>
 	<append xpath="/progression/perks">
 		<perk name="FireSorceryFiller1" parent="skillFireSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-		<!--<perk name="FireSorceryFiller2" parent="skillFireSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>-->
 	</append>
 
 	<append xpath="/progression/skills">
@@ -102,7 +100,6 @@
 	</append>
 	<append xpath="/progression/perks">
 		<perk name="IceSorceryFiller1" parent="skillIceSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-		<!--<perk name="IceSorceryFiller2" parent="skillIceSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>-->
 	</append>
 
 	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryFire']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Fire,toolFireCore</setattribute>

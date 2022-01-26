@@ -1,5 +1,9 @@
 <Config>
 
+	<append xpath="/items/item[@name='resourcePaper']">
+		<property name="Tags" value="junk,resourcePaper,Scholar"/>
+	</append>
+
 	<set xpath="/items/item[@name='sorceryArmorMaster']/property[@name='DisplayType']/@value">FuriousRamsayArcaneArmor</set>
 
 	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="value">1,1,2,3,4,5</setattribute>
@@ -258,7 +262,7 @@
 			<property name="CarryWeight" value="1"/>
 	</append>
 
-	<append xpath="/items/item[@name='resourceRitualBloodFallenLightning' or @name='resourceRitualBloodAwakenedLightning' or @name='resourceRitualBloodFallenFire' or @name='resourceRitualBloodAwakenedFire' or 
+	<append xpath="/items/item[@name='resourceRitualBloodOmni' or @name='resourceRitualBloodFallenLightning' or @name='resourceRitualBloodAwakenedLightning' or @name='resourceRitualBloodFallenFire' or @name='resourceRitualBloodAwakenedFire' or 
 								@name='resourceRitualBloodFallenIce' or @name='resourceRitualBloodAwakenedIce' or @name='resourceRitualBloodFallenUnholy' or @name='resourceRitualBloodAwakenedUnholy' or 
 								@name='resourceRitualBloodFallenHoly' or @name='resourceRitualBloodAwakenedHoly']">
 			<property name="CarryWeight" value="1"/>

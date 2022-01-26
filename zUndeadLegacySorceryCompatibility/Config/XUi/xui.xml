@@ -2,7 +2,7 @@
 
 <append xpath="//ruleset[@name='default']">
 
-	<window_group name="FuriousRamsayConjureFire" controller="XUiC_WorkstationWindowGroup">
+	<window_group name="FuriousRamsayConjureFire" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 		<window name="headerEmpty"/>
 		<window name="windowCraftingFurnaceFire"/>
 		<window name="windowCraftingFuel"/>
@@ -11,8 +11,8 @@
 		<window name="windowCraftingQueue"/>
 		<window name="windowCraftingOutput"/>
 	</window_group>
-	
-	<window_group name="FuriousRamsayConjureIce" controller="XUiC_WorkstationWindowGroup">
+
+	<window_group name="FuriousRamsayConjureIce" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 		<window name="headerEmpty"/>
 		<window name="windowCraftingFurnaceIce"/>
 		<window name="windowCraftingFuel"/>
@@ -22,7 +22,7 @@
 		<window name="windowCraftingOutput"/>
 	</window_group>
 
-	<window_group name="FuriousRamsayConjureLightning" controller="XUiC_WorkstationWindowGroup">
+	<window_group name="FuriousRamsayConjureLightning" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true">
 		<window name="headerEmpty"/>
 		<window name="windowCraftingFurnaceLightning"/>
 		<window name="windowCraftingFuel"/>
@@ -33,35 +33,6 @@
 	</window_group>
 
 </append>
-
-<set xpath="//window_group[@name='workstation_conjureFire']">
-    <window name="headerEmpty"/>
-    <window name="windowCraftingForgeFire"/>
-    <window name="windowCraftingFuel"/>
-    <window name="windowCraftingListForge"/>
-    <window name="windowCraftingInfo"/>
-    <window name="windowCraftingQueue"/>
-    <window name="windowCraftingOutput"/>
-</set>
-<set xpath="//window_group[@name='workstation_conjureIce']">
-    <window name="headerEmpty"/>
-    <window name="windowCraftingForgeIce"/>
-    <window name="windowCraftingFuel"/>
-    <window name="windowCraftingListForge"/>
-    <window name="windowCraftingInfo"/>
-    <window name="windowCraftingQueue"/>
-    <window name="windowCraftingOutput"/>
-</set>
-
-<set xpath="//window_group[@name='workstation_conjureLightning']">
-    <window name="headerEmpty"/>
-    <window name="windowCraftingForgeLightning"/>
-    <window name="windowCraftingFuel"/>
-    <window name="windowCraftingListForge"/>
-    <window name="windowCraftingInfo"/>
-    <window name="windowCraftingQueue"/>
-    <window name="windowCraftingOutput"/>
-</set>
 
 <set xpath="//window_group[@name='workstation_sorceryDesk' or @name='workstation_sorceryAlchemyStation' or @name ='workstation_sorceryArcaneWheel']">
 	<window name="headerEmpty"/>

@@ -1,8 +1,5 @@
 <config>
-	<append xpath="/lootcontainers/lootgroup[@name='ulmStarterKit']">
-		<item name="q_sorceryIntro"/>
+	<append xpath="/lootcontainers/lootgroup[@name='booksPerks' or @name='booksAll']">
+		<item group="sorceryBooksScrolls" count="1"/>
 	</append>
-
-	<set xpath="/lootcontainers/lootcontainer[@id='683']/@size">8,13</set>
-
 </config>

@@ -1,5 +1,7 @@
 <Config>
 
+	<append xpath="/blocks/block[@name='ulmDoorSecureMaster']/property[@name='Tags']/@value">,lockedDoor</append>
+
 	<append xpath="/blocks/block[@name='sorceryCnt_ArcaneChest']">	
 			<property name="CarryWeight" value="5"/>
 	</append>

@@ -18,7 +18,6 @@
 	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetFire']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetIce']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffSorceryPerks_ArmorSetLightning']" name="hidden">true</setattribute>
-	<setattribute xpath="/buffs/buff[@name='debuffScroll_RecallAOE']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffRune_AspectOfFire']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffRune_AspectOfIce']" name="hidden">true</setattribute>
 	<setattribute xpath="/buffs/buff[@name='buffRune_SpellLight']" name="hidden">true</setattribute>
