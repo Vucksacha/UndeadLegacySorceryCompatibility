@@ -16,6 +16,14 @@
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryStaffIce']" name="value">40</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffIce']/effect_group[@name='FIRE STAFF: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryStaffIce']" name="value">50</setattribute>
 
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group[@name='LIGHTNING STAFF: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryStaffLightning']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group[@name='LIGHTNING STAFF: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryStaffLightning']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group[@name='LIGHTNING STAFF: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryStaffLightning']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group[@name='LIGHTNING STAFF: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryStaffLightning']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryStaffLightning']/effect_group[@name='LIGHTNING STAFF: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryStaffLightning']" name="value">50</setattribute>
+
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastFire']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastFire']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastFire']/effect_group[@name='FIRE SPELLCAST: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorcerySpellcastFire']" name="value">10</setattribute>
@@ -32,6 +40,14 @@
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastIce']/effect_group[@name='ICE SPELLCAST: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">40</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastIce']/effect_group[@name='ICE SPELLCAST: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorcerySpellcastIce']" name="value">50</setattribute>
 
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group[@name='LIGHTNING SPELLCAST: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorcerySpellcastLightning']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group[@name='LIGHTNING SPELLCAST: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorcerySpellcastLightning']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group[@name='LIGHTNING SPELLCAST: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorcerySpellcastLightning']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group[@name='LIGHTNING SPELLCAST: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorcerySpellcastLightning']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorcerySpellcastLightning']/effect_group[@name='LIGHTNING SPELLCAST: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorcerySpellcastLightning']" name="value">50</setattribute>
+
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFamiliar']/effect_group[@name='ARCANE FAMILIAR']/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFamiliar']/effect_group[@name='ARCANE FAMILIAR']/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFamiliar']/effect_group[@name='ARCANE FAMILIAR: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryFamiliar']" name="value">10</setattribute>
@@ -39,6 +55,30 @@
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFamiliar']/effect_group[@name='ARCANE FAMILIAR: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryFamiliar']" name="value">30</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFamiliar']/effect_group[@name='ARCANE FAMILIAR: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryFamiliar']" name="value">40</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFamiliar']/effect_group[@name='ARCANE FAMILIAR: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryFamiliar']" name="value">50</setattribute>
+
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR']/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR']/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryFireFamiliar']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryFireFamiliar']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryFireFamiliar']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryFireFamiliar']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryFireFamiliar']/effect_group[@name='FIRE FAMILIAR: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryFireFamiliar']" name="value">50</setattribute>
+
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR']/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR']/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryIceFamiliar']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryIceFamiliar']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryIceFamiliar']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryIceFamiliar']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryIceFamiliar']/effect_group[@name='ICE FAMILIAR: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryIceFamiliar']" name="value">50</setattribute>
+
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR']/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR']/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryLightningFamiliar']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryLightningFamiliar']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryLightningFamiliar']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryLightningFamiliar']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryLightningFamiliar']/effect_group[@name='LIGHTNING FAMILIAR: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryLightningFamiliar']" name="value">50</setattribute>
 
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmor']/effect_group[@name='ARCANE ARMOR']/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmor']/effect_group[@name='ARCANE ARMOR']/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
@@ -64,21 +104,37 @@
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorIce']/effect_group[@name='ICE ARMOR: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryArmorIce']" name="value">40</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorIce']/effect_group[@name='ICE ARMOR: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryArmorIce']" name="value">50</setattribute>
 
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR']/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR']/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryArmorLightning']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryArmorLightning']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryArmorLightning']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryArmorLightning']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryArmorLightning']/effect_group[@name='LIGHTNING ARMOR: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryArmorLightning']" name="value">50</setattribute>
+
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
-	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 1']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">10</setattribute>
+	<!--<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 1']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">10</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 2']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">20</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 3']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">30</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 4']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">40</setattribute>
-	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 5']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Fire']/effect_group[@name='LEVEL 5']/triggered_effect[@cvar='perkSorceryTrap1Fire']" name="value">50</setattribute>-->
 
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
-	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">10</setattribute>
+	<!--<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">10</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">20</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">30</setattribute>
 	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">40</setattribute>
-	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">50</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Ice']/effect_group[@name='ICE SPELL TURRET: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryTrap1Ice']" name="value">50</setattribute>-->
+
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group/passive_effect[@name='CraftingTier']" name="level">0,1,2,3,4,5</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group/passive_effect[@name='CraftingTier']" name="value">0,10,20,30,40,50</setattribute>
+	<!--<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group[@name='Lightning SPELL TURRET: Level']/triggered_effect[@value='1']/requirement[@progression_name='perkSorceryTrap1Lightning']" name="value">10</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group[@name='Lightning SPELL TURRET: Level']/triggered_effect[@value='2']/requirement[@progression_name='perkSorceryTrap1Lightning']" name="value">20</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group[@name='Lightning SPELL TURRET: Level']/triggered_effect[@value='3']/requirement[@progression_name='perkSorceryTrap1Lightning']" name="value">30</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group[@name='Lightning SPELL TURRET: Level']/triggered_effect[@value='4']/requirement[@progression_name='perkSorceryTrap1Lightning']" name="value">40</setattribute>
+	<setattribute xpath="/progression/perks[1]/perk[@name='perkSorceryTrap1Lightning']/effect_group[@name='Lightning SPELL TURRET: Level']/triggered_effect[@value='5']/requirement[@progression_name='perkSorceryTrap1Lightning']" name="value">50</setattribute>-->
 
 	<append xpath="/progression/skills">
 		<skill name="skillArcaneSorceryFiller" parent="attSorcery" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></skill>
@@ -90,19 +146,23 @@
 	<append xpath="/progression/skills">
 		<skill name="skillFireSorceryFiller" parent="attSorceryFire" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></skill>
 	</append>
-	<append xpath="/progression/perks">
+	<!--<append xpath="/progression/perks">
 		<perk name="FireSorceryFiller1" parent="skillFireSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
-	</append>
+	</append>-->
 
 	<append xpath="/progression/skills">
 		<skill name="skillIceSorceryFiller" parent="attSorceryIce" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></skill>
 	</append>
-	<append xpath="/progression/perks">
+	<!--<append xpath="/progression/perks">
 		<perk name="IceSorceryFiller1" parent="skillIceSorceryFiller" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></perk>
+	</append>-->
+
+	<append xpath="/progression/skills">
+		<skill name="skillIceLightningFiller" parent="attSorceryLightning" name_key="uiHiddenContent" desc_key="uiNull" icon="ui_empty"><effect_group/></skill>
 	</append>
 
 	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryFire']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Fire,toolFireCore</setattribute>
 	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryIce']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Ice,toolIceCore</setattribute>
-	<!--<setattribute xpath="/progression/attributes/attribute[@name='attSorceryLightning']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Lightning,toolLightningCore</setattribute>-->
+	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryLightning']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Lightning,toolLightningCore</setattribute>
 
 </Config>

@@ -29,6 +29,21 @@
 			<property name="phase" value="3" />
 		</action>
 
+		<action class="CallGameEvent">
+			<property name="game_events" value="sorcery_action_spawn_introquestfallen" />
+			<property name="phase" value="3" /> <!-- NOTE: spawn quest start -->
+		</action>
+		
+		<action class="Delay">
+			<property name="time" value="48" /> <!-- NOTE: intro quest complete -->
+			<property name="phase" value="4" />
+		</action>
+		
+		<action class="CallGameEvent">
+			<property name="game_events" value="sorcery_action_spawn_introarcanetrader" />
+			<property name="phase" value="5" />
+		</action>
+
 	</set>
 	
 </Config>
