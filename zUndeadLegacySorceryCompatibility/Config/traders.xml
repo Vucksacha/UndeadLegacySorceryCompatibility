@@ -1,0 +1,7 @@
+<Config>
+
+	<setattribute xpath="/traders/trader_item_groups/trader_item_group[@name='SorceryTrader_Stations']/item[@name='conjureFire']" name="name">FuriousRamsayStationFurnace_Fire</setattribute>
+	<setattribute xpath="/traders/trader_item_groups/trader_item_group[@name='SorceryTrader_Stations']/item[@name='conjureIce']" name="name">FuriousRamsayStationFurnace_Ice</setattribute>
+	<setattribute xpath="/traders/trader_item_groups/trader_item_group[@name='SorceryTrader_Stations']/item[@name='conjureLightning']" name="name">FuriousRamsayStationFurnace_Lightning</setattribute>
+	
+</Config>
