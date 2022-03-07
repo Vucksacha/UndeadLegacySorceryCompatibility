@@ -2,6 +2,6 @@
 
 	<setattribute xpath="/quests/quest[@id='quest_sorceryIntroGuide_Fire2']/objective[@id='conjureFire']" name="id">FuriousRamsayStationFurnace_Fire</setattribute>
 	<setattribute xpath="/quests/quest[@id='quest_sorceryIntroGuide_Ice2']/objective[@id='conjureIce']" name="id">FuriousRamsayStationFurnace_Ice</setattribute>
-	<!--<setattribute xpath="/quests/quest[@id='quest_sorceryIntroGuide_Lightning2']/objective[@id='conjureLightning']" name="id">FuriousRamsayStationFurnace_Lightning</setattribute>-->
+	<setattribute xpath="/quests/quest[@id='quest_sorceryIntroGuide_Lightning2']/objective[@id='conjureLightning']" name="id">FuriousRamsayStationFurnace_Lightning</setattribute>
 
 </Config>

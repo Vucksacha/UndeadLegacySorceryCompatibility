@@ -154,19 +154,19 @@
 	<setattribute xpath="/items/item[@name='spellTurretIce']/effect_group[@name='spellTurretIce']/passive_effect[@name='ModSlots']" name="tier">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/items/item[@name='spellTurretIce']/effect_group[@name='spellTurretIce']/passive_effect[@name='DegradationMax']" name="tier">0,90</setattribute>
 
-	<append xpath="/items/item[@name='staffFire' or @name='staffIce']">	
+	<append xpath="/items/item[@name='staffFire' or @name='staffIce' or @name='staffLightning']">	
 			<property name="CarryWeight" value="1.5"/>
 	</append>
 
-	<append xpath="/items/item[@name='spellcastFire' or @name='spellcastIce']">	
+	<append xpath="/items/item[@name='spellcastFire' or @name='spellcastIce' or @name='spellcastLightning']">	
 			<property name="CarryWeight" value="0.5"/>
 	</append>
 
-	<append xpath="/items/item[@name='spellFire' or @name='spellFire2' or @name='spellFire3' or @name='spellIce' or @name='spellIce2' or @name='spellIce3']">
+	<append xpath="/items/item[@name='spellFire' or @name='spellFire2' or @name='spellFire3' or @name='spellIce' or @name='spellIce2' or @name='spellIce3' or @name='spellLightning' or @name='spellLightning2' or @name='spellLightning3']">
 			<property name="CarryWeight" value="0.001"/>
 	</append>
 
-	<append xpath="/items/item[@name='spellArrowFire' or @name='spellBoltFire' or @name='spellArrowIce' or @name='spellBoltIce']">
+	<append xpath="/items/item[@name='spellArrowFire' or @name='spellBoltFire' or @name='spellArrowIce' or @name='spellBoltIce' or @name='spellArrowLightning' or @name='spellBoltLightning']">
 			<property name="CarryWeight" value="0.03"/>
 	</append>
 
@@ -277,11 +277,11 @@
 			<property name="CarryWeight" value="0.1"/>
 	</append>
 
-	<append xpath="/items/item[@name='spellTurretFire' or @name='spellTurretIce']">
+	<append xpath="/items/item[@name='spellTurretFire' or @name='spellTurretIce' or @name='spellTurretLightning']">
 			<property name="CarryWeight" value="10"/>
 	</append>
 
-	<append xpath="/items/item[@name='sorceryFamiliarArcane']">
+	<append xpath="/items/item[@name='sorceryFamiliarArcane' or @name='sorceryFamiliarFire' or @name='sorceryFamiliarIce' or @name='sorceryFamiliarLightning']">
 			<property name="CarryWeight" value="0.05"/>
 	</append>
 </Config>

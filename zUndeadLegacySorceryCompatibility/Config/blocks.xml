@@ -6,7 +6,7 @@
 			<property name="CarryWeight" value="5"/>
 	</append>
 
-	<append xpath="/blocks/block[@name='sorceryTrap_Ice' or @name='sorceryTrap_Fire']">
+	<append xpath="/blocks/block[@name='sorceryTrap_Ice' or @name='sorceryTrap_Fire' or @name='sorceryTrap_Lightning']">
 			<property name="CarryWeight" value="0.5"/>
 	</append>
 

@@ -47,10 +47,10 @@
 		<grid depth="1" pos="-33,-98" name="categories" rows="13" cols="1" cell_width="58" cell_height="58" repeat_content="true" controller="CategoryList">
 			<ulmCategory/>
 		</grid>
-		<grid depth="2" pos="9,-70" name="recipes" rows="5" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
+		<grid depth="2" pos="9,-70" name="recipes" rows="3" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
 			<recipe_entry name="0"/>
 		</grid>
-		<rect pos="228,-532">
+		<rect pos="228,-351">
 			<pager/>
 			<label pos="122,-7" size="200,22" justify="right" font_size="22" text="{recipeCount}" color="160,160,160"/>
 		</rect>
@@ -73,10 +73,10 @@
 		<grid depth="1" pos="-33,-98" name="categories" rows="13" cols="1" cell_width="58" cell_height="58" repeat_content="true" controller="CategoryList">
 			<ulmCategory/>
 		</grid>
-		<grid depth="2" pos="9,-70" name="recipes" rows="5" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
+		<grid depth="2" pos="9,-70" name="recipes" rows="3" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
 			<recipe_entry name="0"/>
 		</grid>
-		<rect pos="228,-532">
+		<rect pos="228,-351">
 			<pager/>
 			<label pos="122,-7" size="200,22" justify="right" font_size="22" text="{recipeCount}" color="160,160,160"/>
 		</rect>
@@ -99,10 +99,10 @@
 		<grid depth="1" pos="-33,-98" name="categories" rows="13" cols="1" cell_width="58" cell_height="58" repeat_content="true" controller="CategoryList">
 			<ulmCategory/>
 		</grid>
-		<grid depth="2" pos="9,-70" name="recipes" rows="5" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
+		<grid depth="2" pos="9,-70" name="recipes" rows="3" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
 			<recipe_entry name="0"/>
 		</grid>
-		<rect pos="228,-532">
+		<rect pos="228,-351">
 			<pager/>
 			<label pos="122,-7" size="200,22" justify="right" font_size="22" text="{recipeCount}" color="160,160,160"/>
 		</rect>
@@ -125,10 +125,10 @@
 		<grid depth="1" pos="-33,-98" name="categories" rows="13" cols="1" cell_width="58" cell_height="58" repeat_content="true" controller="CategoryList">
 			<ulmCategory/>
 		</grid>
-		<grid depth="2" pos="9,-70" name="recipes" rows="5" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
+		<grid depth="2" pos="9,-70" name="recipes" rows="3" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
 			<recipe_entry name="0"/>
 		</grid>
-		<rect pos="228,-532">
+		<rect pos="228,-351">
 			<pager/>
 			<label pos="122,-7" size="200,22" justify="right" font_size="22" text="{recipeCount}" color="160,160,160"/>
 		</rect>
@@ -151,10 +151,10 @@
 		<grid depth="1" pos="-33,-98" name="categories" rows="13" cols="1" cell_width="58" cell_height="58" repeat_content="true" controller="CategoryList">
 			<ulmCategory/>
 		</grid>
-		<grid depth="2" pos="9,-70" name="recipes" rows="5" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
+		<grid depth="2" pos="9,-70" name="recipes" rows="3" cols="6" cell_width="90" cell_height="90" controller="RecipeList" repeat_content="true" arrangement="horizontal">
 			<recipe_entry name="0"/>
 		</grid>
-		<rect pos="228,-532">
+		<rect pos="228,-351">
 			<pager/>
 			<label pos="122,-7" size="200,22" justify="right" font_size="22" text="{recipeCount}" color="160,160,160"/>
 		</rect>
