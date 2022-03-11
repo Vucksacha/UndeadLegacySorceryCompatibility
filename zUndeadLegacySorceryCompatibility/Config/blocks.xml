@@ -89,7 +89,7 @@
 
 			<property class="Workstation">
 				<property name="Window" value="FuriousRamsayConjureLightning"/>
-				<property name="CraftingAreaRecipes" value="conjureLightning"/>
+				<property name="CraftingAreaRecipes" value="FuriousRamsayStationFurnace_Lightning"/>
 				<property name="Modules" value="fuel,tools,output"/>
 				<property name="SoundOpen" value="sorceryLightning_implodelow"/>
 				<property name="SoundClose" value="sorceryLightning_impact"/>
