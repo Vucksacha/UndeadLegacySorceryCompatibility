@@ -6,6 +6,8 @@
 
 	<set xpath="/items/item[@name='sorceryArmorMaster']/property[@name='DisplayType']/@value">FuriousRamsayArcaneArmor</set>
 
+	<setattribute xpath="/items/item[@name='sorceryScrollMaster']/property[@name='Material']" name="value">matMisc</setattribute>
+
 	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="value">1,1,2,3,4,5</setattribute>
 	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='ModSlots']" name="tier">0,10,20,30,40,50</setattribute>
 	<setattribute xpath="/items/item[@name='staffFire']/effect_group[@name='PRIMARY']/passive_effect[@name='DegradationMax']" name="tier">0,90</setattribute>
