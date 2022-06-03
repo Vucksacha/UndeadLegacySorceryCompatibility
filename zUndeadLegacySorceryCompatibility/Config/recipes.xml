@@ -28,8 +28,9 @@
 	<setattribute xpath="/recipes/recipe[@name='toolHammerLightning']" name="craft_area">FuriousRamsayStationFurnace_Lightning</setattribute>
 
 	<!-- Replace Vanilla resourceWood with UL ulmResourcePlank -->
-	<remove xpath="/recipes/recipe[@name='resourcePaper']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='resourcePaper']"><ingredient name="ulmResourceBranch" count="5"/></append>
+	<!--<remove xpath="/recipes/recipe[@name='resourcePaper']/ingredient[@name='resourceWood']" />
+	<append xpath="/recipes/recipe[@name='resourcePaper']"><ingredient name="ulmResourceBranch" count="5"/></append>-->
+	
 	<remove xpath="/recipes/recipe[@name='staffFire']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='staffFire']"><ingredient name="ulmResourcePlank" count="5"/></append>
 	<remove xpath="/recipes/recipe[@name='staffIce']/ingredient[@name='resourceWood']" />
@@ -41,46 +42,8 @@
 	<remove xpath="/recipes/recipe[@name='sorceryArcaneWheel']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='sorceryArcaneWheel']"><ingredient name="ulmResourcePlank" count="25"/></append>
 
-	<remove xpath="/recipes/recipe[@name='scroll_EnergyRegen']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_EnergyRegen']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_DrainHealth']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_DrainHealth']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_DrainStamina']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_DrainStamina']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_DrainSpirit']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_DrainSpirit']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_Scavenger']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_Scavenger']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_Thief']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_Thief']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_Recall']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_Recall']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_ArcaneVision']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_ArcaneVision']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_AugmentXP']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_AugmentXP']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_AugmentHunger']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_AugmentHunger']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_AugmentMining']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_AugmentMining']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_AugmentDigging']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_AugmentDigging']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_AugmentLogging']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_AugmentLogging']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scroll_EssenceHarvest']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scroll_EssenceHarvest']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scrollFire_Weapon']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scrollFire_Weapon']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scrollFire_Ammo']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scrollFire_Ammo']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scrollIce_Weapon']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scrollIce_Weapon']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scrollIce_Ammo']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scrollIce_Ammo']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scrollLightning_Weapon']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scrollLightning_Weapon']"><ingredient name="ulmResourceBranch" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='scrollLightning_Ammo']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='scrollLightning_Ammo']"><ingredient name="ulmResourceBranch" count="5"/></append>
+	<remove xpath="/recipes/recipe[starts-with(@name,'scroll')]/ingredient[@name='resourceWood']" />
+	<append xpath="/recipes/recipe[starts-with(@name,'scroll')]"><ingredient name="ulmResourceBranch" count="5"/></append>
 
 	<remove xpath="/recipes/recipe[@name='sorceryDesk']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='sorceryDesk']"><ingredient name="ulmResourcePlank" count="50"/></append>
@@ -92,6 +55,7 @@
 	<append xpath="/recipes/recipe[@name='rune_AugmentLogging']"><ingredient name="ulmResourcePlank" count="50"/></append>
 	<remove xpath="/recipes/recipe[@name='sorceryAlchemyMortar']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='sorceryAlchemyMortar']"><ingredient name="ulmResourcePlank" count="10"/></append>
+	
 	<remove xpath="/recipes/recipe[@name='spellArrowFire']" />
 	<remove xpath="/recipes/recipe[@name='spellBoltFire']" />
 	<remove xpath="/recipes/recipe[@name='spellArrowIce']" />
