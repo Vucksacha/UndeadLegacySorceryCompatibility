@@ -1,0 +1,3 @@
+<Vux>
+	<setattribute xpath="/controls/ulmSkillLevel/panel" name="color_bg_locked">90,90,90,255</setattribute>
+</Vux>
