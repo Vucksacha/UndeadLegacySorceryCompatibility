@@ -5,10 +5,10 @@ Installation Instructions:
 
 	Initial Step: Make sure you have a clean installation of 7 Days to Die. Re-install if necessary.
 
-	Step 1: Download this mod's supported Undead Legacy Mod (currently 2.4.25 stable for A19.5)
+	Step 1: Download this mod's supported Undead Legacy Mod (currently 2.6.17 stable for A20.7)
 		http://ul.subquake.com/download
 		Using any other version may work but is at your own risk
-	Step 2: Download this mod's supported Sorcery Mod (currently v0.944)
+	Step 2: Download this mod's supported Sorcery Mod (currently v1.72)
 		http://download.sorcerymod.com/
 		Using any other version may work but is at your own risk
 	Step 3: Unzip UndeadLegacy-master.zip and copy the entire content of the UndeadLegacy-master folder into your 7DTD game folder
@@ -26,16 +26,19 @@ Installation Instructions:
 
 	You're done!
 
-	As of the 2.4.25 release of Undead Legacy, your resulting \Mods folder should look like this (subfolder list):
+	As of the 2.6.17 release of Undead Legacy, your resulting \Mods folder should look like this (subfolder list):
 		UndeadLegacy
 		UndeadLegacy_Content01
 		UndeadLegacy_Content02
 		UndeadLegacy_Content03
-		UndeadLegacy_Research
+  		UndeadLegacy_Localization_Brazilian
+    		UndeadLegacy_Localization_Chinese
+      		UndeadLegacy_Localization_German
+		UndeadLegacy_Localization_Korean
+  		UndeadLegacy_Localization_Polish
+    		UndeadLegacy_Localization_Russian
+      		UndeadLegacy_Localization_Spanish
+		UndeadLegacy_Skills
 		UndeadLegacy_Twitch
-		UndeadLegacy_XLoot
-		UndeadLegacy_Z_Localization_Chinese
-		UndeadLegacy_Z_Localization_Korean
-		UndeadLegacy_Z_Localization_Russian
 		zSorcery
 		zUndeadLegacySorceryCompatibility
