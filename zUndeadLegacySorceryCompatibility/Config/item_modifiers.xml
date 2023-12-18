@@ -37,5 +37,16 @@
 	<append xpath="/item_modifiers/item_modifier[@name='runeMaster']">
 		<property value="0.2" name="CarryWeight"/>
 	</append>
+	
+	<append xpath="/item_modifiers/item_modifier[@name='rune_DeepPocket']/effect_group[@name='RUNE']">
+		<passive_effect name="CargoCapacity" operation="base_add" value="30"/>
+        <triggered_effect trigger="onSelfEquipStart" target="self" action="ULM_RecalculatePlayerWeight,UndeadLegacy"/>
+        <triggered_effect trigger="onSelfEquipStop" target="self" action="ULM_RecalculatePlayerWeight,UndeadLegacy"/>
+	</append>
+	<append xpath="/item_modifiers/item_modifier[@name='rune_DeeperPocket']/effect_group[@name='RUNE']">
+		<passive_effect name="CargoCapacity" operation="base_add" value="60"/>
+        <triggered_effect trigger="onSelfEquipStart" target="self" action="ULM_RecalculatePlayerWeight,UndeadLegacy"/>
+        <triggered_effect trigger="onSelfEquipStop" target="self" action="ULM_RecalculatePlayerWeight,UndeadLegacy"/>
+	</append>
 
 </Config>
