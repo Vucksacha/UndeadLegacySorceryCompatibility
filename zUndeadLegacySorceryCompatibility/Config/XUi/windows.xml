@@ -162,4 +162,11 @@
 </window>
 
 </append>
+
+<setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="rows">5</setattribute>
+<setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="cols">2</setattribute>
+<setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="cell_width">350</setattribute>
+<setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="arrangement">vertical</setattribute>
+<setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="pos">-350,-58</setattribute>
+
 </Config>
