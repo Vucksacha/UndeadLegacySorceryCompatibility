@@ -165,4 +165,10 @@
 	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryIce']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Ice,toolIceCore</setattribute>
 	<setattribute xpath="/progression/attributes/attribute[@name='attSorceryLightning']/effect_group[@name='RECIPES']/passive_effect[@name='RecipeTagUnlocked']" name="tags">FuriousRamsayStationFurnace_Lightning,toolLightningCore</setattribute>
 
+
+	<insertAfter xpath="progression/perks/perk[@name='perkSorceryAlchemyMastery']/effect_group[@name='CRAFTING']/passive_effect[@level='4,10']">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3,10" tags="sorceryAlchemyStation,potion_Mending,potion_SlowFall,potionFire_Essence,potionIce_Essence,potionLightning_Essence"/>
+	</insertAfter>
+	<remove xpath="progression/perks/perk[@name='perkSorceryAlchemyMastery']/effect_group[@name='CRAFTING']/passive_effect[@level='4,10']"/>
+
 </Config>

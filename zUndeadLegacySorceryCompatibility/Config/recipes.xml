@@ -37,8 +37,10 @@
 	<append xpath="/recipes/recipe[@name='staffIce']"><ingredient name="ulmResourcePlank" count="5"/></append>
 	<remove xpath="/recipes/recipe[@name='staffLightning']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='staffLightning']"><ingredient name="ulmResourcePlank" count="5"/></append>
-	<remove xpath="/recipes/recipe[@name='sorceryCnt_ArcaneChest']/ingredient[@name='resourceWood']" />
-	<append xpath="/recipes/recipe[@name='sorceryCnt_ArcaneChest']"><ingredient name="ulmResourcePlank" count="15"/></append>
+	<remove xpath="/recipes/recipe[@name='cntChestScroll_Arcane' or @name='cntChestScroll_Fire' or @name='cntChestScroll_Ice' or @name='cntChestScroll_Lightning' or @name='cntChestScroll_Unholy']/ingredient[@name='resourceWood']" />
+	<append xpath="/recipes/recipe[@name='cntChestScroll_Arcane' or @name='cntChestScroll_Fire' or @name='cntChestScroll_Ice' or @name='cntChestScroll_Lightning' or @name='cntChestScroll_Unholy']"><ingredient name="ulmResourcePlank" count="15"/></append>
+
+	
 	<remove xpath="/recipes/recipe[@name='sorceryArcaneWheel']/ingredient[@name='resourceWood']" />
 	<append xpath="/recipes/recipe[@name='sorceryArcaneWheel']"><ingredient name="ulmResourcePlank" count="25"/></append>
 

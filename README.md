@@ -32,12 +32,12 @@ Installation Instructions:
 		UndeadLegacy_Content02
 		UndeadLegacy_Content03
   		UndeadLegacy_Localization_Brazilian
-    		UndeadLegacy_Localization_Chinese
-      		UndeadLegacy_Localization_German
+    	UndeadLegacy_Localization_Chinese
+      	UndeadLegacy_Localization_German
 		UndeadLegacy_Localization_Korean
   		UndeadLegacy_Localization_Polish
-    		UndeadLegacy_Localization_Russian
-      		UndeadLegacy_Localization_Spanish
+    	UndeadLegacy_Localization_Russian
+      	UndeadLegacy_Localization_Spanish
 		UndeadLegacy_Skills
 		UndeadLegacy_Twitch
 		zSorcery
