@@ -1,9 +1,4 @@
 <Config>
-	<append xpath="/gameevents/action_sequence[@name='game_first_spawn']">
-		<action class="AddQuest">
-			<property name="quest" value="quest_sorceryIntro"/>
-		</action>
-	</append>
 	
 	<set xpath="/gameevents/action_sequence[@name='game_first_spawn']">
 		<property name="allow_user_trigger" value="false"/>
