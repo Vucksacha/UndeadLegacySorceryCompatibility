@@ -169,4 +169,13 @@
 <setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="arrangement">vertical</setattribute>
 <setattribute xpath="/windows/window[@name='windowSkillPerkInfo']/rect[@visible='{isNormalPerk}']/grid" name="pos">-350,-58</setattribute>
 
+<!-- Add spirit bar -->
+<insertBefore xpath="/windows/window[@name='windowHudLeft']/grid[@name='hud']/rect[3]">
+	    <rect rotation="180" size="260,35" on_hover="true" tooltip="{cvar($spiritAmount:0)}/{cvar($spiritMaxBase:0)}">
+		    <texture depth="1" style="ulmHudBar1"/>
+		    <sprite depth="2" style="ulmHudBar1" color="110,60,255,255" fill="{cvar($spiritPercentMod}"/>
+            <sprite depth="4" style="ulmHudBar" sprite="ui_symbol_pentagram" color="255,255,255"/>
+            <label depth="6" style="ulmHudBar" text="{cvar($spiritAmount:0)}/{cvar($spiritMaxBase:0)}" visible="{statsValuesVisible}"/>
+	    </rect>
+</insertBefore>
 </Config>
